@@ -4,7 +4,7 @@ const phrases = [
   "Just check the google sheet",
   "Sell, Sell, Sell",
   "Donny’s fault, as always.",
-  "Ask Donny, he’s probably messing it up.",
+  "Ask Donny, he's probably messing it up.",
   "Justin’s got it...",
   "Google Sheet is the new Bible.",
   "Sell, Sell, Sell... Like Donny’s selling his dignity.",
@@ -48,6 +48,13 @@ const phrases = [
   "I'm currently out of office. Please contact Sales",
   "I'm out of office, so is the rest of the shop",
   "We closed early",
+  "You want how many soldering irons?",
+  "Justin, Kim, and I just lost power and society is falling apart due to the tropical storm, but Cody and Preston are at the shop down the street if you need anything. ",
+  "I gave my leg a test run on my 1 day Masque trip, and it didn’t go well so I’m no longer going to InfoComm.",
+  "Donny has been spending too much.  Oh btw, I’m flying up tomorrow",
+  "Can you make the transfer order for me?",
+  "What is a transfer order?",
+  "Lets see what Casandra has to say about this",
 ];
 
 module.exports = phrases;
