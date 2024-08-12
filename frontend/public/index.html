@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic 8-Ball</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^3.0/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body class="flex items-center justify-center min-h-screen bg-gradient-to-br from-purple-600 to-indigo-800">
+    <div id="eightball" class="w-64 h-64 bg-black rounded-full flex items-center justify-center cursor-pointer relative">
+      <div id="liquid-display" class="w-36 h-36 bg-purple-900 rounded-full flex items-center justify-center text-white font-bold text-xl">
+        <p id="phrase" class="text-center"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
