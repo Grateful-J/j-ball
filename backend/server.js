@@ -1,10 +1,11 @@
 const express = require("express");
 const phrases = require("./src/phrases");
+const path = require("path");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "../frontend/public")));
 
 app.get("/api/phrase", (req, res) => {
   const randomIndex = Math.floor(Math.random() * phrases.length);

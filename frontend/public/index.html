@@ -5,14 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Magic 8-Ball</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^3.0/dist/tailwind.min.css" rel="stylesheet" />
+    <style>
+      body {
+        background: linear-gradient(to bottom right, #4c1d95, #1e3a8a);
+      }
+      #eightball {
+        width: 24rem; /* width and height of 8-Ball */
+        height: 24rem;
+        background: black;
+        border-radius: 50%;
+        position: relative;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.7), 0 0 60px rgba(76, 29, 149, 0.8), 0 0 120px rgba(76, 29, 149, 0.6);
+      }
+      #liquid-display {
+        width: 12rem; /* width and height of liquid display */
+        height: 12rem;
+        background: radial-gradient(circle, rgba(76, 29, 149, 0.8), black);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #phrase {
+        color: white;
+        font-size: 1.25rem;
+        text-align: center;
+        padding: 0 0.5rem;
+      }
+    </style>
   </head>
-  <body class="flex items-center justify-center min-h-screen bg-gradient-to-br from-purple-600 to-indigo-800">
-    <div id="eightball" class="w-64 h-64 bg-black rounded-full flex items-center justify-center cursor-pointer relative">
-      <div id="liquid-display" class="w-36 h-36 bg-purple-900 rounded-full flex items-center justify-center text-white font-bold text-xl">
-        <p id="phrase" class="text-center"></p>
+  <body class="flex items-center justify-center min-h-screen">
+    <div id="eightball" class="cursor-pointer">
+      <div id="liquid-display">
+        <p id="phrase"></p>
       </div>
     </div>
 
-    <script src="./src/pages/app.js"></script>
+    <script src="../src/pages/app.js"></script>
   </body>
 </html>
