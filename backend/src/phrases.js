@@ -29,7 +29,7 @@ const phrases = [
   "Lets just hide that in NY expenses",
   "We can't send that, Donny might actually get credit.",
   "Justin’s got a plan... and it’s terrible.",
-  "Well, you can do that because Justin is our Executive Packaging Strategist.",
+  "Well, you can't do that because Justin is our Executive Packaging Strategist.",
   "Yeah, that’s Justin’s thing—he’s our Director of Spreadsheets",
   "Oh, don’t worry, Justin’s the Senior Manager of Making It Up As We Go.",
   "Didn’t you know? Justin’s the Vice President of Excuse Generation.",
@@ -45,6 +45,9 @@ const phrases = [
   "I'm busy, check with Preston",
   "Let's check with Justin first",
   "Thats not how we do it on Univision",
+  "I'm currently out of office. Please contact Sales",
+  "I'm out of office, so is the rest of the shop",
+  "We closed early",
 ];
 
 module.exports = phrases;
