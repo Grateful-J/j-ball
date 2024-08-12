@@ -37,7 +37,7 @@ const phrases = [
   "You should ask Justin, he’s the Head of Delegated Disasters.",
   "Justin’s been around forever—he’s the Supreme Ruler of Last-Minute Fixes.",
   "Oh, Justin? He’s been promoted to Grandmaster of Unnecessary Meetings.",
-  "Lets just send a dumb siwtch",
+  "Lets just send a dumb switch",
   "I dont have time for this R2 shit",
   "WE FUCKING CRUSHED INVETORY THIS YEAR",
   "40% loss, not bad.. not great",
