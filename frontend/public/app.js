@@ -10,7 +10,7 @@ document.getElementById("eightball").addEventListener("click", async () => {
   let index = 0;
   const interval = setInterval(() => {
     if (index < data.phrase.length) {
-      phraseElement.innerText += data.phrase[index];
+      phraseElement.innerHTML += data.phrase[index];
       index++;
     } else {
       clearInterval(interval);

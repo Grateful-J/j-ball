@@ -1,5 +1,5 @@
 const phrases = [
-  "It's Donny's fault",
+  "It is all Donny's fault",
   "Juatin has it handled",
   "Just check the google sheet",
   "Yes, definitely.",
