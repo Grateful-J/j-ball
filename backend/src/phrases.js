@@ -75,6 +75,17 @@ const phrases = [
   "It's too late to add you to the list",
   "Add me to the list",
   "It's too late to add you to the list",
+  "Boyle's on Vaction",
+  "Boyle has a wedding",
+  "What? Another wedding Boyle?",
+  "Matt's on vacation",
+  "Matt's on vacation",
+  "Matt Boyle is in Japan again",
+  "It's fashion week... Boyle has to take vacation. It's mandatory.",
+  "Boyle will be in on Wednesday and Friday and then will be on vacation.",
+  "Is it a full moon?, Boyle is probably on vacation",
+  "Boyle has to take vacation",
+  "Mercury is in retrograde... and Boyle has to take vacation",
 ];
 
 module.exports = phrases;
